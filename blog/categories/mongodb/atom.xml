@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mongodb | Arun Agrawal's Blog]]></title>
   <link href="http://arunagw.github.io/blog/categories/mongodb/atom.xml" rel="self"/>
   <link href="http://arunagw.github.io/"/>
-  <updated>2015-05-07T22:15:11+02:00</updated>
+  <updated>2015-05-07T22:20:35+02:00</updated>
   <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Working With Mongoid Team]]></title>
-    <link href="http://arunagw.github.io/2011/working-with-mongoid-team"/>
+    <link href="http://arunagw.github.io/2011/working-with-mongoid-team/"/>
     <updated>2011-07-03T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/working-with-mongoid-team</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -47,7 +47,7 @@
   
   <entry>
     <title type="html"><![CDATA[Creating Documents, MongoDB — 2]]></title>
-    <link href="http://arunagw.github.io/2010/creating-documents-mongodb"/>
+    <link href="http://arunagw.github.io/2010/creating-documents-mongodb/"/>
     <updated>2010-11-22T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2010/creating-documents-mongodb</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -70,7 +70,7 @@
   
   <entry>
     <title type="html"><![CDATA[MongoDB — 1]]></title>
-    <link href="http://arunagw.github.io/2010/mongodb-1"/>
+    <link href="http://arunagw.github.io/2010/mongodb-1/"/>
     <updated>2010-11-19T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2010/mongodb-1</id>
     <content type="html"><![CDATA[<div class="entry">

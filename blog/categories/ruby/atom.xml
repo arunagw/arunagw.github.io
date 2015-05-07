@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | Arun Agrawal's Blog]]></title>
   <link href="http://arunagw.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://arunagw.github.io/"/>
-  <updated>2015-05-07T22:15:11+02:00</updated>
+  <updated>2015-05-07T22:20:35+02:00</updated>
   <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Interview on RubyIndia Podcast]]></title>
-    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast"/>
+    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast/"/>
     <updated>2015-03-17T09:21:50+01:00</updated>
     <id>http://arunagw.github.io/2015/interview-on-rubyindia-podcast</id>
     <content type="html"><![CDATA[<p>Recently I had an interview on <a href="http://podcast.rubyindia.org/rubyindia/10">RubyIndia Podcast</a> and we talked about my early experiences with Ruby, starting my contributions to <a href="https://github.com/arunagw/">Open Source Projects</a> and currently <a href="https://github.com/rails/rails">Ruby on Rails</a>, work and culture at <a href="http://playbook.thoughtbot.com/">thoughtbot</a>.</p>
@@ -41,7 +41,7 @@
   
   <entry>
     <title type="html"><![CDATA[Rails4 app on heroku]]></title>
-    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku"/>
+    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku/"/>
     <updated>2013-06-15T21:43:00+02:00</updated>
     <id>http://arunagw.github.io/2013/rails4-app-on-heroku</id>
     <content type="html"><![CDATA[<p>Updated : <a href="https://blog.heroku.com/archives/2013/6/17/ruby-2-default-new-aps">Heroku</a> has updated to use ruby2.0. by default.</p>
@@ -105,7 +105,7 @@ ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-linux]
   
   <entry>
     <title type="html"><![CDATA[Working as a Rails Contributor]]></title>
-    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor"/>
+    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor/"/>
     <updated>2011-08-03T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/working-as-a-rails-contributor</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -155,7 +155,7 @@ ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-linux]
   
   <entry>
     <title type="html"><![CDATA[Method Visibility Public, Protected, Private]]></title>
-    <link href="http://arunagw.github.io/2010/method-visibility-public-protected-private.html"/>
+    <link href="http://arunagw.github.io/2010/method-visibility-public-protected-private.html/"/>
     <updated>2010-10-25T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2010/method-visibility-public-protected-private.html</id>
     <content type="html"><![CDATA[<div class="entry">

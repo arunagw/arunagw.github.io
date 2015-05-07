@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | Arun Agrawal's Blog]]></title>
   <link href="http://arunagw.github.io/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://arunagw.github.io/"/>
-  <updated>2015-05-07T22:15:11+02:00</updated>
+  <updated>2015-05-07T22:20:35+02:00</updated>
   <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Rails4 app on heroku]]></title>
-    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku"/>
+    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku/"/>
     <updated>2013-06-15T21:43:00+02:00</updated>
     <id>http://arunagw.github.io/2013/rails4-app-on-heroku</id>
     <content type="html"><![CDATA[<p>Updated : <a href="https://blog.heroku.com/archives/2013/6/17/ruby-2-default-new-aps">Heroku</a> has updated to use ruby2.0. by default.</p>
@@ -79,7 +79,7 @@ ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-linux]
   
   <entry>
     <title type="html"><![CDATA[Working as a Rails Contributor]]></title>
-    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor"/>
+    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor/"/>
     <updated>2011-08-03T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/working-as-a-rails-contributor</id>
     <content type="html"><![CDATA[<div class="entry">

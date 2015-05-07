@@ -4,7 +4,7 @@
   <title><![CDATA[Arun Agrawal's Blog]]></title>
   <link href="http://arunagw.github.io/atom.xml" rel="self"/>
   <link href="http://arunagw.github.io/"/>
-  <updated>2015-05-07T22:15:11+02:00</updated>
+  <updated>2015-05-07T22:20:35+02:00</updated>
   <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Interview on RubyIndia Podcast]]></title>
-    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast"/>
+    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast/"/>
     <updated>2015-03-17T09:21:50+01:00</updated>
     <id>http://arunagw.github.io/2015/interview-on-rubyindia-podcast</id>
     <content type="html"><![CDATA[<p>Recently I had an interview on <a href="http://podcast.rubyindia.org/rubyindia/10">RubyIndia Podcast</a> and we talked about my early experiences with Ruby, starting my contributions to <a href="https://github.com/arunagw/">Open Source Projects</a> and currently <a href="https://github.com/rails/rails">Ruby on Rails</a>, work and culture at <a href="http://playbook.thoughtbot.com/">thoughtbot</a>.</p>
@@ -41,7 +41,7 @@
   
   <entry>
     <title type="html"><![CDATA[Rails4 app on heroku]]></title>
-    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku"/>
+    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku/"/>
     <updated>2013-06-15T21:43:00+02:00</updated>
     <id>http://arunagw.github.io/2013/rails4-app-on-heroku</id>
     <content type="html"><![CDATA[<p>Updated : <a href="https://blog.heroku.com/archives/2013/6/17/ruby-2-default-new-aps">Heroku</a> has updated to use ruby2.0. by default.</p>
@@ -132,7 +132,7 @@
   
   <entry>
     <title type="html"><![CDATA[Switched to Heroku and Octopress]]></title>
-    <link href="http://arunagw.github.io/2013/switched-to-heroku-and-octopress"/>
+    <link href="http://arunagw.github.io/2013/switched-to-heroku-and-octopress/"/>
     <updated>2013-05-27T23:05:00+02:00</updated>
     <id>http://arunagw.github.io/2013/switched-to-heroku-and-octopress</id>
     <content type="html"><![CDATA[<p>I started posting blogs using self hosted <a href="http://wordpress.org/">Wordpress</a> solution. After few years I realize that I should use Ruby/Rack framework. And drop this old way of doing blog post.</p>
@@ -153,7 +153,7 @@
   
   <entry>
     <title type="html"><![CDATA[Slides (When Ruby Meets Java - The Power of Torquebox)]]></title>
-    <link href="http://arunagw.github.io/2012/slides-when-ruby-meets-java-the-power-of-torquebox"/>
+    <link href="http://arunagw.github.io/2012/slides-when-ruby-meets-java-the-power-of-torquebox/"/>
     <updated>2012-04-01T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2012/slides-when-ruby-meets-java-the-power-of-torquebox</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -182,7 +182,7 @@
   
   <entry>
     <title type="html"><![CDATA[OAuth with OmniAuth and Twitter]]></title>
-    <link href="http://arunagw.github.io/2011/oauth-omniauth-twitter"/>
+    <link href="http://arunagw.github.io/2011/oauth-omniauth-twitter/"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/oauth-omniauth-twitter</id>
     <content type="html"><![CDATA[Hi Folks,
@@ -240,7 +240,7 @@ Useful links :
   
   <entry>
     <title type="html"><![CDATA[Respond to Custom Formats in Rails]]></title>
-    <link href="http://arunagw.github.io/2011/respond-custom-formats-rails"/>
+    <link href="http://arunagw.github.io/2011/respond-custom-formats-rails/"/>
     <updated>2011-10-24T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/respond-custom-formats-rails</id>
     <content type="html"><![CDATA[We usually respond some of the known formats in Rails Application like HTML, XML, JavaScript, RSS and some custom.
@@ -291,7 +291,7 @@ You will redirect_to <code>@mp3</code> url.
   
   <entry>
     <title type="html"><![CDATA[X-Request-Id tracking and TaggedLogging in Rails3.2]]></title>
-    <link href="http://arunagw.github.io/2011/x-request-id-tracking-taggedlogging-rails"/>
+    <link href="http://arunagw.github.io/2011/x-request-id-tracking-taggedlogging-rails/"/>
     <updated>2011-10-21T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/x-request-id-tracking-taggedlogging-rails</id>
     <content type="html"><![CDATA[<strong>Rails 3.2 will come with X-Request-Id tracking and TaggedLogging support!! Recently <a href="http://twitter.com/dhh">DHH</a> added this feature <a href="https://github.com/rails/rails/commit/afde6fdd5ef3e6b0693a7e330777e85ef4cffddb">here</a>!</strong>
@@ -359,7 +359,7 @@ Cheers,
   
   <entry>
     <title type="html"><![CDATA[Rails 3.1 and JRuby]]></title>
-    <link href="http://arunagw.github.io/2011/rails-3-1-jruby"/>
+    <link href="http://arunagw.github.io/2011/rails-3-1-jruby/"/>
     <updated>2011-10-10T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/rails-3-1-jruby</id>
     <content type="html"><![CDATA[Hi Folks,
@@ -379,7 +379,7 @@ Arun
   
   <entry>
     <title type="html"><![CDATA[Submit a patch for Rails on Github using "fork and edit button"]]></title>
-    <link href="http://arunagw.github.io/2011/submit-patch-rails-github-fork-edit-button"/>
+    <link href="http://arunagw.github.io/2011/submit-patch-rails-github-fork-edit-button/"/>
     <updated>2011-09-11T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/submit-patch-rails-github-fork-edit-button</id>
     <content type="html"><![CDATA[Hi Folks,
@@ -414,7 +414,7 @@ I am writing some steps to use Github&#8217;s fork and edit feature to open pull
   
   <entry>
     <title type="html"><![CDATA[Serialized Attributes Rails 3]]></title>
-    <link href="http://arunagw.github.io/2011/serialized-attributes-rails-3"/>
+    <link href="http://arunagw.github.io/2011/serialized-attributes-rails-3/"/>
     <updated>2011-08-27T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/serialized-attributes-rails-3</id>
     <content type="html"><![CDATA[This post will guide you how to do Serialization for your attributes in Rails.
@@ -506,7 +506,7 @@ I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlo
   
   <entry>
     <title type="html"><![CDATA[Rails 3.0.10 and JRuby]]></title>
-    <link href="http://arunagw.github.io/2011/rails-3-0-10-jruby"/>
+    <link href="http://arunagw.github.io/2011/rails-3-0-10-jruby/"/>
     <updated>2011-08-05T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/rails-3-0-10-jruby</id>
     <content type="html"><![CDATA[Finally, The Rails is coming with template support with JRuby platform. We used to use "-m" option to generate new Rails Application for JRuby platform. Which is no more need now.
@@ -596,7 +596,7 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Working as a Rails Contributor]]></title>
-    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor"/>
+    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor/"/>
     <updated>2011-08-03T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/working-as-a-rails-contributor</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -646,7 +646,7 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Working With Mongoid Team]]></title>
-    <link href="http://arunagw.github.io/2011/working-with-mongoid-team"/>
+    <link href="http://arunagw.github.io/2011/working-with-mongoid-team/"/>
     <updated>2011-07-03T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/working-with-mongoid-team</id>
     <content type="html"><![CDATA[<div class="entry">
@@ -678,7 +678,7 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Rails3 application with Jruby]]></title>
-    <link href="http://arunagw.github.io/2011/rails3-application-jruby"/>
+    <link href="http://arunagw.github.io/2011/rails3-application-jruby/"/>
     <updated>2011-03-28T00:00:00+02:00</updated>
     <id>http://arunagw.github.io/2011/rails3-application-jruby</id>
     <content type="html"><![CDATA[<strong>If you are living on edge and you are using Rails3 then you need follow this.<a href="http://arunagw.github.io/2011/rails-3-0-10-jruby/"> Rails3 With JRuby</a></strong>
@@ -758,7 +758,7 @@ Arun
   
   <entry>
     <title type="html"><![CDATA[Use selenium as a script]]></title>
-    <link href="http://arunagw.github.io/2011/selenium-script"/>
+    <link href="http://arunagw.github.io/2011/selenium-script/"/>
     <updated>2011-03-22T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/selenium-script</id>
     <content type="html"><![CDATA[Hey All,
@@ -822,7 +822,7 @@ All about selenium with ruby :- <a href="http://seleniumhq.org/projects/ruby/">h
   
   <entry>
     <title type="html"><![CDATA[Gem 1.5 with Rails 2.3]]></title>
-    <link href="http://arunagw.github.io/2011/gem-1-5-rails-2-3"/>
+    <link href="http://arunagw.github.io/2011/gem-1-5-rails-2-3/"/>
     <updated>2011-03-19T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/gem-1-5-rails-2-3</id>
     <content type="html"><![CDATA[You may fall down into the situation where you don't have RVM and your system gem is upgraded for using latest things.
@@ -875,7 +875,7 @@ Above workaround works for me very well. Any other ideas?
   
   <entry>
     <title type="html"><![CDATA[Redis key-value store]]></title>
-    <link href="http://arunagw.github.io/2011/redis-key-value-store"/>
+    <link href="http://arunagw.github.io/2011/redis-key-value-store/"/>
     <updated>2011-03-18T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/redis-key-value-store</id>
     <content type="html"><![CDATA[<a href="http://redis.io/">Redis</a> is really cool and lightweight key-value store. If you are looking for something in which you can store some string, hashes, lists, sets. The <a href="http://redis.io/">Redis</a> is the best.
@@ -918,7 +918,7 @@ Links help you in redis
   
   <entry>
     <title type="html"><![CDATA[Bundler Usage -- Installing Gems]]></title>
-    <link href="http://arunagw.github.io/2011/bundler-usage-installing-gems"/>
+    <link href="http://arunagw.github.io/2011/bundler-usage-installing-gems/"/>
     <updated>2011-03-18T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/bundler-usage-installing-gems</id>
     <content type="html"><![CDATA[Every time you change your Gemfile then you might adding/removing any dependancies in your application.
@@ -973,7 +973,7 @@ And also <a href="http://railscasts.com/episodes/201-bundler"> http://railscasts
   
   <entry>
     <title type="html"><![CDATA[Bundler Usage -- Manage Gemfile]]></title>
-    <link href="http://arunagw.github.io/2011/bundler-usage-manage-gemfile"/>
+    <link href="http://arunagw.github.io/2011/bundler-usage-manage-gemfile/"/>
     <updated>2011-03-17T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/bundler-usage-manage-gemfile</id>
     <content type="html"><![CDATA[In the previous post we posted about basic <a href="http://gembundler.com/">Bundler</a> usage. Here i am posting about some advance way of managing Gemfile.
@@ -1017,7 +1017,7 @@ We can load gems from our local path also.
   
   <entry>
     <title type="html"><![CDATA[Query cache in Rails]]></title>
-    <link href="http://arunagw.github.io/2011/query-cache-rails"/>
+    <link href="http://arunagw.github.io/2011/query-cache-rails/"/>
     <updated>2011-02-27T00:00:00+01:00</updated>
     <id>http://arunagw.github.io/2011/query-cache-rails</id>
     <content type="html"><![CDATA[By default Rails do Query cache. Whenever it execute <code>find</code> it enables the query cache.
