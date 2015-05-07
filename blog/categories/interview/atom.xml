@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: interview | Arun Agrawal's Blog]]></title>
-  <link href="http://arun.im/blog/categories/interview/atom.xml" rel="self"/>
-  <link href="http://arun.im/"/>
-  <updated>2015-05-07T22:11:10+02:00</updated>
-  <id>http://arun.im/</id>
+  <link href="http://arunagw.github.io/blog/categories/interview/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-05-07T22:15:11+02:00</updated>
+  <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Interview on RubyIndia Podcast]]></title>
-    <link href="http://arun.im/2015/interview-on-rubyindia-podcast/"/>
+    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast"/>
     <updated>2015-03-17T09:21:50+01:00</updated>
-    <id>http://arun.im/2015/interview-on-rubyindia-podcast</id>
+    <id>http://arunagw.github.io/2015/interview-on-rubyindia-podcast</id>
     <content type="html"><![CDATA[<p>Recently I had an interview on <a href="http://podcast.rubyindia.org/rubyindia/10">RubyIndia Podcast</a> and we talked about my early experiences with Ruby, starting my contributions to <a href="https://github.com/arunagw/">Open Source Projects</a> and currently <a href="https://github.com/rails/rails">Ruby on Rails</a>, work and culture at <a href="http://playbook.thoughtbot.com/">thoughtbot</a>.</p>
 
 <p>If you are interested in listening to me make sure to check this out.</p>

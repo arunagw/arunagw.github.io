@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mongodb | Arun Agrawal's Blog]]></title>
-  <link href="http://arun.im/blog/categories/mongodb/atom.xml" rel="self"/>
-  <link href="http://arun.im/"/>
-  <updated>2015-05-07T22:11:10+02:00</updated>
-  <id>http://arun.im/</id>
+  <link href="http://arunagw.github.io/blog/categories/mongodb/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-05-07T22:15:11+02:00</updated>
+  <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Working With Mongoid Team]]></title>
-    <link href="http://arun.im/2011/working-with-mongoid-team/"/>
+    <link href="http://arunagw.github.io/2011/working-with-mongoid-team"/>
     <updated>2011-07-03T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/working-with-mongoid-team</id>
+    <id>http://arunagw.github.io/2011/working-with-mongoid-team</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>It’s long time i am writing again Blog. I am very happy that i have started working with Mongoid dev team.</p>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Creating Documents, MongoDB — 2]]></title>
-    <link href="http://arun.im/2010/creating-documents-mongodb/"/>
+    <link href="http://arunagw.github.io/2010/creating-documents-mongodb"/>
     <updated>2010-11-22T00:00:00+01:00</updated>
-    <id>http://arun.im/2010/creating-documents-mongodb</id>
+    <id>http://arunagw.github.io/2010/creating-documents-mongodb</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <h3 id="-100000">
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[MongoDB — 1]]></title>
-    <link href="http://arun.im/2010/mongodb-1/"/>
+    <link href="http://arunagw.github.io/2010/mongodb-1"/>
     <updated>2010-11-19T00:00:00+01:00</updated>
-    <id>http://arun.im/2010/mongodb-1</id>
+    <id>http://arunagw.github.io/2010/mongodb-1</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>Hi,</p>

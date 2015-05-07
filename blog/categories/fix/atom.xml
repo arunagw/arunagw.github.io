@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: fix | Arun Agrawal's Blog]]></title>
-  <link href="http://arun.im/blog/categories/fix/atom.xml" rel="self"/>
-  <link href="http://arun.im/"/>
-  <updated>2015-05-07T22:11:10+02:00</updated>
-  <id>http://arun.im/</id>
+  <link href="http://arunagw.github.io/blog/categories/fix/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-05-07T22:15:11+02:00</updated>
+  <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rails4 app on heroku]]></title>
-    <link href="http://arun.im/2013/rails4-app-on-heroku/"/>
+    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku"/>
     <updated>2013-06-15T21:43:00+02:00</updated>
-    <id>http://arun.im/2013/rails4-app-on-heroku</id>
+    <id>http://arunagw.github.io/2013/rails4-app-on-heroku</id>
     <content type="html"><![CDATA[<p>Updated : <a href="https://blog.heroku.com/archives/2013/6/17/ruby-2-default-new-aps">Heroku</a> has updated to use ruby2.0. by default.</p>
 
 <p>If you are deploying a new rails4 app on heroku that might fail. And you will get following error.</p>

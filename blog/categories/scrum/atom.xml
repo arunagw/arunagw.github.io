@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: scrum | Arun Agrawal's Blog]]></title>
-  <link href="http://arun.im/blog/categories/scrum/atom.xml" rel="self"/>
-  <link href="http://arun.im/"/>
-  <updated>2015-05-07T22:11:10+02:00</updated>
-  <id>http://arun.im/</id>
+  <link href="http://arunagw.github.io/blog/categories/scrum/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-05-07T22:15:11+02:00</updated>
+  <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Certified Scrum Master]]></title>
-    <link href="http://arun.im/2011/certified-scrum-master/"/>
+    <link href="http://arunagw.github.io/2011/certified-scrum-master"/>
     <updated>2011-01-14T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/certified-scrum-master</id>
+    <id>http://arunagw.github.io/2011/certified-scrum-master</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>I have completed my certificate in Scrum Master. Completed&nbsp;training and&nbsp;evaluation.</p>
@@ -27,7 +27,7 @@
 
   <p>
     <a rel="attachment wp-att-259" href="http://www.scrumalliance.org/profiles/118197-arun-agrawal" target="_blank">
-      <img class="alignnone size-medium wp-image-259" title="ScrumMaster" src="http://arun.im/assets/images/ScrumMaster_Logo.png" alt="Scrum Master Arun Agrawal" width="300" height="101">
+      <img class="alignnone size-medium wp-image-259" title="ScrumMaster" src="http://arunagw.github.io/assets/images/ScrumMaster_Logo.png" alt="Scrum Master Arun Agrawal" width="300" height="101">
     </a>
   </p>
 

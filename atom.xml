@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Arun Agrawal's Blog]]></title>
-  <link href="http://arun.im/atom.xml" rel="self"/>
-  <link href="http://arun.im/"/>
-  <updated>2015-05-07T22:11:10+02:00</updated>
-  <id>http://arun.im/</id>
+  <link href="http://arunagw.github.io/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-05-07T22:15:11+02:00</updated>
+  <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Interview on RubyIndia Podcast]]></title>
-    <link href="http://arun.im/2015/interview-on-rubyindia-podcast/"/>
+    <link href="http://arunagw.github.io/2015/interview-on-rubyindia-podcast"/>
     <updated>2015-03-17T09:21:50+01:00</updated>
-    <id>http://arun.im/2015/interview-on-rubyindia-podcast</id>
+    <id>http://arunagw.github.io/2015/interview-on-rubyindia-podcast</id>
     <content type="html"><![CDATA[<p>Recently I had an interview on <a href="http://podcast.rubyindia.org/rubyindia/10">RubyIndia Podcast</a> and we talked about my early experiences with Ruby, starting my contributions to <a href="https://github.com/arunagw/">Open Source Projects</a> and currently <a href="https://github.com/rails/rails">Ruby on Rails</a>, work and culture at <a href="http://playbook.thoughtbot.com/">thoughtbot</a>.</p>
 
 <p>If you are interested in listening to me make sure to check this out.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rails4 app on heroku]]></title>
-    <link href="http://arun.im/2013/rails4-app-on-heroku/"/>
+    <link href="http://arunagw.github.io/2013/rails4-app-on-heroku"/>
     <updated>2013-06-15T21:43:00+02:00</updated>
-    <id>http://arun.im/2013/rails4-app-on-heroku</id>
+    <id>http://arunagw.github.io/2013/rails4-app-on-heroku</id>
     <content type="html"><![CDATA[<p>Updated : <a href="https://blog.heroku.com/archives/2013/6/17/ruby-2-default-new-aps">Heroku</a> has updated to use ruby2.0. by default.</p>
 
 <p>If you are deploying a new rails4 app on heroku that might fail. And you will get following error.</p>
@@ -132,9 +132,9 @@
   
   <entry>
     <title type="html"><![CDATA[Switched to Heroku and Octopress]]></title>
-    <link href="http://arun.im/2013/switched-to-heroku-and-octopress/"/>
+    <link href="http://arunagw.github.io/2013/switched-to-heroku-and-octopress"/>
     <updated>2013-05-27T23:05:00+02:00</updated>
-    <id>http://arun.im/2013/switched-to-heroku-and-octopress</id>
+    <id>http://arunagw.github.io/2013/switched-to-heroku-and-octopress</id>
     <content type="html"><![CDATA[<p>I started posting blogs using self hosted <a href="http://wordpress.org/">Wordpress</a> solution. After few years I realize that I should use Ruby/Rack framework. And drop this old way of doing blog post.</p>
 
 <p>I tried moving away from Wordpress few times and one day got success. Finally I converted my all blog posts into markdown format.</p>
@@ -153,9 +153,9 @@
   
   <entry>
     <title type="html"><![CDATA[Slides (When Ruby Meets Java - The Power of Torquebox)]]></title>
-    <link href="http://arun.im/2012/slides-when-ruby-meets-java-the-power-of-torquebox/"/>
+    <link href="http://arunagw.github.io/2012/slides-when-ruby-meets-java-the-power-of-torquebox"/>
     <updated>2012-04-01T00:00:00+02:00</updated>
-    <id>http://arun.im/2012/slides-when-ruby-meets-java-the-power-of-torquebox</id>
+    <id>http://arunagw.github.io/2012/slides-when-ruby-meets-java-the-power-of-torquebox</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>
@@ -182,9 +182,9 @@
   
   <entry>
     <title type="html"><![CDATA[OAuth with OmniAuth and Twitter]]></title>
-    <link href="http://arun.im/2011/oauth-omniauth-twitter/"/>
+    <link href="http://arunagw.github.io/2011/oauth-omniauth-twitter"/>
     <updated>2011-11-07T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/oauth-omniauth-twitter</id>
+    <id>http://arunagw.github.io/2011/oauth-omniauth-twitter</id>
     <content type="html"><![CDATA[Hi Folks,
 
 If you want to have OAuth in your Rails Application with twitter. <a href="https://github.com/intridea/omniauth">OmniAuth</a> is the best gem to use.
@@ -201,7 +201,7 @@ Be sure to put the callback URL in the application. Callback URL is the URL wher
 
 Showing an image here how to register an Application with Twitter.
 
-<img class="aligncenter size-full wp-image-319" title="twitter_omnauth" src="http://arun.im/assets/images/twitter_omnauth.jpg" alt="" width="805" height="741" />
+<img class="aligncenter size-full wp-image-319" title="twitter_omnauth" src="http://arunagw.github.io/assets/images/twitter_omnauth.jpg" alt="" width="805" height="741" />
 
 &nbsp;
 
@@ -240,9 +240,9 @@ Useful links :
   
   <entry>
     <title type="html"><![CDATA[Respond to Custom Formats in Rails]]></title>
-    <link href="http://arun.im/2011/respond-custom-formats-rails/"/>
+    <link href="http://arunagw.github.io/2011/respond-custom-formats-rails"/>
     <updated>2011-10-24T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/respond-custom-formats-rails</id>
+    <id>http://arunagw.github.io/2011/respond-custom-formats-rails</id>
     <content type="html"><![CDATA[We usually respond some of the known formats in Rails Application like HTML, XML, JavaScript, RSS and some custom.
 
 Have you tried to use your own custom format for your Rails Application?
@@ -291,9 +291,9 @@ You will redirect_to <code>@mp3</code> url.
   
   <entry>
     <title type="html"><![CDATA[X-Request-Id tracking and TaggedLogging in Rails3.2]]></title>
-    <link href="http://arun.im/2011/x-request-id-tracking-taggedlogging-rails/"/>
+    <link href="http://arunagw.github.io/2011/x-request-id-tracking-taggedlogging-rails"/>
     <updated>2011-10-21T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/x-request-id-tracking-taggedlogging-rails</id>
+    <id>http://arunagw.github.io/2011/x-request-id-tracking-taggedlogging-rails</id>
     <content type="html"><![CDATA[<strong>Rails 3.2 will come with X-Request-Id tracking and TaggedLogging support!! Recently <a href="http://twitter.com/dhh">DHH</a> added this feature <a href="https://github.com/rails/rails/commit/afde6fdd5ef3e6b0693a7e330777e85ef4cffddb">here</a>!</strong>
 
 This makes it easy to trace requests from end-to-end in the stack and to identify individual requests in mixed logs.
@@ -359,9 +359,9 @@ Cheers,
   
   <entry>
     <title type="html"><![CDATA[Rails 3.1 and JRuby]]></title>
-    <link href="http://arun.im/2011/rails-3-1-jruby/"/>
+    <link href="http://arunagw.github.io/2011/rails-3-1-jruby"/>
     <updated>2011-10-10T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/rails-3-1-jruby</id>
+    <id>http://arunagw.github.io/2011/rails-3-1-jruby</id>
     <content type="html"><![CDATA[Hi Folks,
 
 If you are doing any application in which you required JRuby as a platform. You can use Rails3.1 with that. activerecord-jdbc-adapter 1.2.0 is ok with that!
@@ -379,9 +379,9 @@ Arun
   
   <entry>
     <title type="html"><![CDATA[Submit a patch for Rails on Github using "fork and edit button"]]></title>
-    <link href="http://arun.im/2011/submit-patch-rails-github-fork-edit-button/"/>
+    <link href="http://arunagw.github.io/2011/submit-patch-rails-github-fork-edit-button"/>
     <updated>2011-09-11T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/submit-patch-rails-github-fork-edit-button</id>
+    <id>http://arunagw.github.io/2011/submit-patch-rails-github-fork-edit-button</id>
     <content type="html"><![CDATA[Hi Folks,
 
 I have recently written about my Rails Contributions experience <a title="Arun Agrawal Rails" href="http://agrawalarun.com/2011/08/03/working-as-a-rails-contributor/" target="_blank">here</a>.
@@ -396,14 +396,14 @@ And some people who are good in Rails will do it in more easy manner. And easy t
 
 I am writing some steps to use Github&#8217;s fork and edit feature to open pull request.
 <p style="text-align: center;"><strong>Open up your project on Github open up file where you want to change</strong></p>
-<p style="text-align: center;"><a href="http://arun.im/assets/images/fork_and_edit.jpg"><img class="aligncenter size-full wp-image-239" title="fork_and_edit" src="http://arun.im/assets/images/fork_and_edit.jpg" alt="" width="975" height="270" /></a></p>
+<p style="text-align: center;"><a href="http://arunagw.github.io/assets/images/fork_and_edit.jpg"><img class="aligncenter size-full wp-image-239" title="fork_and_edit" src="http://arunagw.github.io/assets/images/fork_and_edit.jpg" alt="" width="975" height="270" /></a></p>
 <p style="text-align: center;"><strong>Change your desired things into the file. You can only change one file in one commit</strong></p>
-<p style="text-align: center;"><a href="http://arun.im/assets/images/make_changes.jpg"><img class="aligncenter size-full wp-image-240" title="make_changes" src="http://arun.im/assets/images/make_changes.jpg" alt="" width="972" height="781" /></a></p>
+<p style="text-align: center;"><a href="http://arunagw.github.io/assets/images/make_changes.jpg"><img class="aligncenter size-full wp-image-240" title="make_changes" src="http://arunagw.github.io/assets/images/make_changes.jpg" alt="" width="972" height="781" /></a></p>
 <p style="text-align: center;"><strong>Propese your file changes! Here you can write about your changes. Give some references about issue. Can see the file changed. Can see the commits which you have made.</strong></p>
-<p style="text-align: center;"><a href="http://arun.im/assets/images/pr_discussion.jpg"><img class="aligncenter size-full wp-image-243" title="pr_discussion" src="http://arun.im/assets/images/pr_discussion.jpg" alt="" width="953" height="533" /></a></p>
+<p style="text-align: center;"><a href="http://arunagw.github.io/assets/images/pr_discussion.jpg"><img class="aligncenter size-full wp-image-243" title="pr_discussion" src="http://arunagw.github.io/assets/images/pr_discussion.jpg" alt="" width="953" height="533" /></a></p>
 <p style="text-align: center;"><strong>Change commit is the most important part. The reason is when people are doing changes in specific branch. Let&#8217;s take a example of Rails. If you are going to submit a patch against Rails 3.0.X version then you must have to choose 3-0-stable branch instead of master in Base branch.</strong></p>
 <p style="text-align: center;"><strong>After updating the commit range you can submit the Pull Request and also must see the File Changed.</strong></p>
-<p style="text-align: left;"><a href="http://arun.im/assets/images/pr_change_commits.jpg"><img class="aligncenter size-full wp-image-241" title="pr_change_commits" src="http://arun.im/assets/images/pr_change_commits.jpg" alt="" width="956" height="397" /></a><strong></strong></p>
+<p style="text-align: left;"><a href="http://arunagw.github.io/assets/images/pr_change_commits.jpg"><img class="aligncenter size-full wp-image-241" title="pr_change_commits" src="http://arunagw.github.io/assets/images/pr_change_commits.jpg" alt="" width="956" height="397" /></a><strong></strong></p>
 <p style="text-align: left;"><em><strong>Use this feature when you are fixing any typos, updating any docs. For submitting any code changes you should be running tests. :-) </strong></em></p>
 <p style="text-align: left;"><strong>Feel free to ask me if you face any problem in doing these things. We want more contributions!</strong></p>
 <p style="text-align: left;"><strong>You can tweet me <a title="Arun Agrawal Twitter" href="http://twitter.com/arunagw" target="_blank">@arunagw</a> or catch me on my email any time.</strong></p>
@@ -414,9 +414,9 @@ I am writing some steps to use Github&#8217;s fork and edit feature to open pull
   
   <entry>
     <title type="html"><![CDATA[Serialized Attributes Rails 3]]></title>
-    <link href="http://arun.im/2011/serialized-attributes-rails-3/"/>
+    <link href="http://arunagw.github.io/2011/serialized-attributes-rails-3"/>
     <updated>2011-08-27T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/serialized-attributes-rails-3</id>
+    <id>http://arunagw.github.io/2011/serialized-attributes-rails-3</id>
     <content type="html"><![CDATA[This post will guide you how to do Serialization for your attributes in Rails.
 
 Serialize means you want to save arbitrary Ruby data structure into the database.
@@ -506,9 +506,9 @@ I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlo
   
   <entry>
     <title type="html"><![CDATA[Rails 3.0.10 and JRuby]]></title>
-    <link href="http://arun.im/2011/rails-3-0-10-jruby/"/>
+    <link href="http://arunagw.github.io/2011/rails-3-0-10-jruby"/>
     <updated>2011-08-05T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/rails-3-0-10-jruby</id>
+    <id>http://arunagw.github.io/2011/rails-3-0-10-jruby</id>
     <content type="html"><![CDATA[Finally, The Rails is coming with template support with JRuby platform. We used to use "-m" option to generate new Rails Application for JRuby platform. Which is no more need now.
 
 Just set your platform to JRuby and create a new Rails Application as you do normally and it will generate a Application which is ready to go. No more tweaks required..!!
@@ -596,9 +596,9 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Working as a Rails Contributor]]></title>
-    <link href="http://arun.im/2011/working-as-a-rails-contributor/"/>
+    <link href="http://arunagw.github.io/2011/working-as-a-rails-contributor"/>
     <updated>2011-08-03T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/working-as-a-rails-contributor</id>
+    <id>http://arunagw.github.io/2011/working-as-a-rails-contributor</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>Finally, I got the time to write something about my
@@ -646,9 +646,9 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Working With Mongoid Team]]></title>
-    <link href="http://arun.im/2011/working-with-mongoid-team/"/>
+    <link href="http://arunagw.github.io/2011/working-with-mongoid-team"/>
     <updated>2011-07-03T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/working-with-mongoid-team</id>
+    <id>http://arunagw.github.io/2011/working-with-mongoid-team</id>
     <content type="html"><![CDATA[<div class="entry">
 
   <p>It’s long time i am writing again Blog. I am very happy that i have started working with Mongoid dev team.</p>
@@ -678,10 +678,10 @@ Some Useful links related to post:
   
   <entry>
     <title type="html"><![CDATA[Rails3 application with Jruby]]></title>
-    <link href="http://arun.im/2011/rails3-application-jruby/"/>
+    <link href="http://arunagw.github.io/2011/rails3-application-jruby"/>
     <updated>2011-03-28T00:00:00+02:00</updated>
-    <id>http://arun.im/2011/rails3-application-jruby</id>
-    <content type="html"><![CDATA[<strong>If you are living on edge and you are using Rails3 then you need follow this.<a href="http://arun.im/2011/rails-3-0-10-jruby/"> Rails3 With JRuby</a></strong>
+    <id>http://arunagw.github.io/2011/rails3-application-jruby</id>
+    <content type="html"><![CDATA[<strong>If you are living on edge and you are using Rails3 then you need follow this.<a href="http://arunagw.github.io/2011/rails-3-0-10-jruby/"> Rails3 With JRuby</a></strong>
 
 &nbsp;
 
@@ -758,9 +758,9 @@ Arun
   
   <entry>
     <title type="html"><![CDATA[Use selenium as a script]]></title>
-    <link href="http://arun.im/2011/selenium-script/"/>
+    <link href="http://arunagw.github.io/2011/selenium-script"/>
     <updated>2011-03-22T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/selenium-script</id>
+    <id>http://arunagw.github.io/2011/selenium-script</id>
     <content type="html"><![CDATA[Hey All,
 
 I came with a situation where i need to test things from browser. It nothing to do with the different browsers. It just to check some validations, some messages with some existing data with me.
@@ -822,9 +822,9 @@ All about selenium with ruby :- <a href="http://seleniumhq.org/projects/ruby/">h
   
   <entry>
     <title type="html"><![CDATA[Gem 1.5 with Rails 2.3]]></title>
-    <link href="http://arun.im/2011/gem-1-5-rails-2-3/"/>
+    <link href="http://arunagw.github.io/2011/gem-1-5-rails-2-3"/>
     <updated>2011-03-19T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/gem-1-5-rails-2-3</id>
+    <id>http://arunagw.github.io/2011/gem-1-5-rails-2-3</id>
     <content type="html"><![CDATA[You may fall down into the situation where you don't have RVM and your system gem is upgraded for using latest things.
 
 And your old application is still running on older version of rails.
@@ -875,9 +875,9 @@ Above workaround works for me very well. Any other ideas?
   
   <entry>
     <title type="html"><![CDATA[Redis key-value store]]></title>
-    <link href="http://arun.im/2011/redis-key-value-store/"/>
+    <link href="http://arunagw.github.io/2011/redis-key-value-store"/>
     <updated>2011-03-18T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/redis-key-value-store</id>
+    <id>http://arunagw.github.io/2011/redis-key-value-store</id>
     <content type="html"><![CDATA[<a href="http://redis.io/">Redis</a> is really cool and lightweight key-value store. If you are looking for something in which you can store some string, hashes, lists, sets. The <a href="http://redis.io/">Redis</a> is the best.
 
 If you are a Ruby developer then you must try out this with a <a href="https://github.com/ezmobius/redis-rb">redis-rb</a> gem. Very easy to configure, very easy to store things.
@@ -918,9 +918,9 @@ Links help you in redis
   
   <entry>
     <title type="html"><![CDATA[Bundler Usage -- Installing Gems]]></title>
-    <link href="http://arun.im/2011/bundler-usage-installing-gems/"/>
+    <link href="http://arunagw.github.io/2011/bundler-usage-installing-gems"/>
     <updated>2011-03-18T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/bundler-usage-installing-gems</id>
+    <id>http://arunagw.github.io/2011/bundler-usage-installing-gems</id>
     <content type="html"><![CDATA[Every time you change your Gemfile then you might adding/removing any dependancies in your application.
 
 Just <code> bundle install </code> will install gems for you. 
@@ -973,9 +973,9 @@ And also <a href="http://railscasts.com/episodes/201-bundler"> http://railscasts
   
   <entry>
     <title type="html"><![CDATA[Bundler Usage -- Manage Gemfile]]></title>
-    <link href="http://arun.im/2011/bundler-usage-manage-gemfile/"/>
+    <link href="http://arunagw.github.io/2011/bundler-usage-manage-gemfile"/>
     <updated>2011-03-17T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/bundler-usage-manage-gemfile</id>
+    <id>http://arunagw.github.io/2011/bundler-usage-manage-gemfile</id>
     <content type="html"><![CDATA[In the previous post we posted about basic <a href="http://gembundler.com/">Bundler</a> usage. Here i am posting about some advance way of managing Gemfile.
 
 <a href="http://gembundler.com/">Bundler</a> requires a Gemfile. If you are creating a Rails application which is above to version 3, the Gemfile automatic gets created.
@@ -1017,9 +1017,9 @@ We can load gems from our local path also.
   
   <entry>
     <title type="html"><![CDATA[Query cache in Rails]]></title>
-    <link href="http://arun.im/2011/query-cache-rails/"/>
+    <link href="http://arunagw.github.io/2011/query-cache-rails"/>
     <updated>2011-02-27T00:00:00+01:00</updated>
-    <id>http://arun.im/2011/query-cache-rails</id>
+    <id>http://arunagw.github.io/2011/query-cache-rails</id>
     <content type="html"><![CDATA[By default Rails do Query cache. Whenever it execute <code>find</code> it enables the query cache.
 You can enable manually by wrapping up in <code>cache</code> block.
 <pre>Post.cache do
