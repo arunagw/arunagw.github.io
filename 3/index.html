@@ -85,6 +85,125 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/2011/serialized-attributes-rails-3/">Serialized Attributes Rails 3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-27T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">This post will guide you how to do Serialization for your attributes in Rails.
+
+Serialize means you want to save arbitrary Ruby data structure into the database.
+
+Let consider we have a User model in which we want to store preferences for user in a Ruby data structure format. Previously it was only YAML.
+
+<pre>
+class User < ActiveRecord::Base
+  serialize :preferences 
+end
+</pre>
+
+<pre>
+user = User.find 1
+user.preferences = {:foo =>  'bar'}
+user.save
+</pre>
+
+So now we can pass a second parameter to serialize method to use that serialization method.
+
+<pre>
+class User < ActiveRecord::Base
+  serialize :preferences, SomeCoolEncoder.new
+end
+</pre>
+
+You need to implement this encoder! It can be a JSON, XML, Base64. Or what every encoding technique you like to use.
+
+A sample encoder look like this.
+
+<pre>
+class Base64Encoder
+  def load(value)
+    return unless value
+    value.unpack('m').last
+  end
+
+  def dump(text)
+    [text].pack('m')
+  end
+end
+</pre>
+
+This new encoder must have these methods in it!
+
+So now you attribute is serialized and you can store data in it in your given format.
+
+Ok so now we talk about ActiveModel::Serialization
+
+ActiveModel::Serialization will give you serialized attribute for your classes.
+
+A very simple example to use ActiveModel::Serialization
+<pre>
+class Post
+
+  include ActiveModel::Serialization
+
+  attr_accessor :title
+
+  def attributes
+    {'title' => title}
+  end
+
+end
+
+# So you can use like 
+
+post = Post.new
+post.serializable_hash   # => {"title"=>nil}
+post.name = "Rails is Cool!!"
+post.serializable_hash   # => {"name"=>"Rails is Cool!!"}
+
+</pre>
+
+Can use two inbuilt Serialization techniques 
+
+<pre>
+include ActiveModel::Serializers::JSON
+include ActiveModel::Serializers::Xml
+</pre>
+
+This is a very short intro for Serialization. Hope i will write more in detail soon!!
+
+I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlove</a> talk in <a href="http://www.youtube.com/watch?v=kWOAHIpmLAI" target="_blank">RailsConf2011</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/2011/rails-3-0-10-jruby/">Rails 3.0.10 and JRuby</a></h1>
     
     
@@ -440,97 +559,6 @@ Arun
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/selenium-script/">Use Selenium as a Script</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-03-22T00:00:00+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">Hey All,
-
-I came with a situation where i need to test things from browser. It nothing to do with the different browsers. It just to check some validations, some messages with some existing data with me.
-
-I can&#8217;t touch the code base. It&#8217;s something like QA work.
-
-I am not very much aware about using of selenium IDE which is available in browsers.
-
-I look into the selenium world with ruby and found some interesting stuff that i can script my test and run for a browser.
-
-To run into the browser i need to setup selenium-rc server running.
-
-I have done it in my way. Just small code and using selenium-client gem which allows me to start and stop the selenium-rc server.
-
-Here is my code for selenium-rc server. It also includes the selenium-jar file.
-<a href="https://github.com/arunagw/selenium-server">https://github.com/arunagw/selenium-server</a>
-
-For running selenium-rc server. Just clone it. bundle install and then rake selenium:rc:start
-
-All set. Now you are ready to run selenium script from your local machine.
-
-To test things i am using hitting up google.com and validating stuff. A google example is also given on the selenium-client gems readme.
-
-<pre>
-#!/usr/bin/env ruby
-#
-# Sample Ruby script using the Selenium client API
-#
-require "rubygems"
-gem "selenium-client", ">=1.2.16"
-require "selenium/client"
-
-begin
-  @browser = Selenium::Client::Driver.new \
-      :host => "localhost", 
-      :port => 4444, 
-      :browser => "*firefox", 
-      :url => "http://www.google.com", 
-      :timeout_in_second => 60
-
-  @browser.start_new_browser_session
-    @browser.open "/"
-    @browser.type "q", "Selenium seleniumhq.org"
-    @browser.click "btnG", :wait_for => :page
-    puts @browser.text?("seleniumhq.org")
-ensure
-  @browser.close_current_browser_session    
-end
-</pre>
-
-You can just run above script after start the selenium-rc server and see the result yourself in the browser. 
-
-Some useful links for get up and running selenium with ruby.
-
-Selenium-client for ruby :- <a href="https://github.com/ph7/selenium-client">https://github.com/ph7/selenium-client</a> 
-All about selenium with ruby :- <a href="http://seleniumhq.org/projects/ruby/">http://seleniumhq.org/projects/ruby/</a>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/4">&larr; Older</a>
@@ -564,6 +592,10 @@ All about selenium with ruby :- <a href="http://seleniumhq.org/projects/ruby/">h
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2015/ruby-raven/">Ruby Raven</a>
+      </li>
+    
+      <li class="post">
         <a href="/2015/interview-on-rubyindia-podcast/">Interview on RubyIndia Podcast</a>
       </li>
     
@@ -577,10 +609,6 @@ All about selenium with ruby :- <a href="http://seleniumhq.org/projects/ruby/">h
     
       <li class="post">
         <a href="/2012/slides-when-ruby-meets-java-the-power-of-torquebox/">Slides (When Ruby Meets Java - the Power of Torquebox)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/oauth-omniauth-twitter/">OAuth With OmniAuth and Twitter</a>
       </li>
     
   </ul>

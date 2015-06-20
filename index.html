@@ -85,6 +85,54 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/2015/ruby-raven/">Ruby Raven</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-06-20T08:39:55+02:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I am very happy to announce <a href="http://ruby.conferencesapp.com/">Ruby Raven</a>. An iOS app which helps to keep track about upcoming Ruby Conferences.</p>
+
+<p>Can read more in detail here <a href="http://raysrashmi.com/2015/06/17/announcing-ruby-raven/">http://raysrashmi.com/2015/06/17/announcing-ruby-raven/</a></p>
+
+<h3>Links</h3>
+
+<ul>
+<li><p><a href="https://appsto.re/in/Ff9e7.i">itunes</a></p></li>
+<li><p><a href="http://ruby.conferencesapp.com/">Ruby Raven</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-server">Server App</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-ios">iOS App</a></p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/2015/interview-on-rubyindia-podcast/">Interview on RubyIndia Podcast</a></h1>
     
     
@@ -355,91 +403,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/oauth-omniauth-twitter/">OAuth With OmniAuth and Twitter</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-11-07T00:00:00+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">Hi Folks,
-
-If you want to have OAuth in your Rails Application with twitter. <a href="https://github.com/intridea/omniauth">OmniAuth</a> is the best gem to use.
-
-OmniAuth provides list of  Strategies to use many OAuth for your application. Here is the<a href="https://github.com/intridea/omniauth/wiki/List-of-Strategies"> List of Strategies</a>.
-
-Showing here a <a href="https://github.com/arunagw/omniauth-twitter">Twitter Strategy</a> for OmniAuth. Twitter uses the OAuth 1.0a flow, you can read about it here: <a href="https://dev.twitter.com/docs/auth/oauth">https://dev.twitter.com/docs/auth/oauth</a>
-
-For using Twitter OAuth you have to register a Application on Twitter (<a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a>)
-
-Once you done with the registration obtain the Consumer Key and Consumer Secret from the Twitter Application.
-
-Be sure to put the callback URL in the application. Callback URL is the URL where user will land after successful authentication.
-
-Showing an image here how to register an Application with Twitter.
-
-<img class="aligncenter size-full wp-image-319" title="twitter_omnauth" src="/assets/images/twitter_omnauth.jpg" alt="" width="805" height="741" />
-
-&nbsp;
-
-Here showing some of the steps :
-
-Generate a new Rails Application:
-<pre>rails new TwitterAuth</pre>
-Update your gemfile add <a href="https://rubygems.org/gems/omniauth-twitter">omniauth-twitter</a> gem into that
-<pre>gem "omniauth-twitter"</pre>
-Create a <code>config/initializers/omniauth.rb</code> file.
-<strong>Paste your key instead of XXXX, and secret instead of YYYY</strong>
-<pre>Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :twitter, 'XXXX', 'YYYY'
-end</pre>
-All Done!
-
-Just start the server
-<pre>bundle exec rails server</pre>
-And hit the URL
-<pre>http://localhost:3000/auth/twitter</pre>
-And you should be landing on the Twitter Authorize page!
-
-After success your app will redirect to your given callback URL with information and token!
-
-At <a href="http://www.omniauth.org/">OmniAuth.org</a> you can try out different -2 Strategies.
-
-&nbsp;
-
-Useful links :
-<ul>
-	<li><a href="http://www.omniauth.org/">OmniAuth.org</a> One page for all you need.</li>
-	<li><a href="https://rubygems.org/gems/omniauth-twitter">omniauth-twitter</a> gem.</li>
-</ul>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/2">&larr; Older</a>
@@ -471,6 +434,10 @@ Useful links :
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2015/ruby-raven/">Ruby Raven</a>
+      </li>
+    
+      <li class="post">
         <a href="/2015/interview-on-rubyindia-podcast/">Interview on RubyIndia Podcast</a>
       </li>
     
@@ -484,10 +451,6 @@ Useful links :
     
       <li class="post">
         <a href="/2012/slides-when-ruby-meets-java-the-power-of-torquebox/">Slides (When Ruby Meets Java - the Power of Torquebox)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/oauth-omniauth-twitter/">OAuth With OmniAuth and Twitter</a>
       </li>
     
   </ul>

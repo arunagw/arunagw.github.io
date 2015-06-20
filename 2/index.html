@@ -85,6 +85,91 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/2011/oauth-omniauth-twitter/">OAuth With OmniAuth and Twitter</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-07T00:00:00+01:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Hi Folks,
+
+If you want to have OAuth in your Rails Application with twitter. <a href="https://github.com/intridea/omniauth">OmniAuth</a> is the best gem to use.
+
+OmniAuth provides list of  Strategies to use many OAuth for your application. Here is the<a href="https://github.com/intridea/omniauth/wiki/List-of-Strategies"> List of Strategies</a>.
+
+Showing here a <a href="https://github.com/arunagw/omniauth-twitter">Twitter Strategy</a> for OmniAuth. Twitter uses the OAuth 1.0a flow, you can read about it here: <a href="https://dev.twitter.com/docs/auth/oauth">https://dev.twitter.com/docs/auth/oauth</a>
+
+For using Twitter OAuth you have to register a Application on Twitter (<a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a>)
+
+Once you done with the registration obtain the Consumer Key and Consumer Secret from the Twitter Application.
+
+Be sure to put the callback URL in the application. Callback URL is the URL where user will land after successful authentication.
+
+Showing an image here how to register an Application with Twitter.
+
+<img class="aligncenter size-full wp-image-319" title="twitter_omnauth" src="/assets/images/twitter_omnauth.jpg" alt="" width="805" height="741" />
+
+&nbsp;
+
+Here showing some of the steps :
+
+Generate a new Rails Application:
+<pre>rails new TwitterAuth</pre>
+Update your gemfile add <a href="https://rubygems.org/gems/omniauth-twitter">omniauth-twitter</a> gem into that
+<pre>gem "omniauth-twitter"</pre>
+Create a <code>config/initializers/omniauth.rb</code> file.
+<strong>Paste your key instead of XXXX, and secret instead of YYYY</strong>
+<pre>Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :twitter, 'XXXX', 'YYYY'
+end</pre>
+All Done!
+
+Just start the server
+<pre>bundle exec rails server</pre>
+And hit the URL
+<pre>http://localhost:3000/auth/twitter</pre>
+And you should be landing on the Twitter Authorize page!
+
+After success your app will redirect to your given callback URL with information and token!
+
+At <a href="http://www.omniauth.org/">OmniAuth.org</a> you can try out different -2 Strategies.
+
+&nbsp;
+
+Useful links :
+<ul>
+	<li><a href="http://www.omniauth.org/">OmniAuth.org</a> One page for all you need.</li>
+	<li><a href="https://rubygems.org/gems/omniauth-twitter">omniauth-twitter</a> gem.</li>
+</ul>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/2011/respond-custom-formats-rails/">Respond to Custom Formats in Rails</a></h1>
     
     
@@ -362,125 +447,6 @@ I am writing some steps to use Github&#8217;s fork and edit feature to open pull
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/serialized-attributes-rails-3/">Serialized Attributes Rails 3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-08-27T00:00:00+02:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">This post will guide you how to do Serialization for your attributes in Rails.
-
-Serialize means you want to save arbitrary Ruby data structure into the database.
-
-Let consider we have a User model in which we want to store preferences for user in a Ruby data structure format. Previously it was only YAML.
-
-<pre>
-class User < ActiveRecord::Base
-  serialize :preferences 
-end
-</pre>
-
-<pre>
-user = User.find 1
-user.preferences = {:foo =>  'bar'}
-user.save
-</pre>
-
-So now we can pass a second parameter to serialize method to use that serialization method.
-
-<pre>
-class User < ActiveRecord::Base
-  serialize :preferences, SomeCoolEncoder.new
-end
-</pre>
-
-You need to implement this encoder! It can be a JSON, XML, Base64. Or what every encoding technique you like to use.
-
-A sample encoder look like this.
-
-<pre>
-class Base64Encoder
-  def load(value)
-    return unless value
-    value.unpack('m').last
-  end
-
-  def dump(text)
-    [text].pack('m')
-  end
-end
-</pre>
-
-This new encoder must have these methods in it!
-
-So now you attribute is serialized and you can store data in it in your given format.
-
-Ok so now we talk about ActiveModel::Serialization
-
-ActiveModel::Serialization will give you serialized attribute for your classes.
-
-A very simple example to use ActiveModel::Serialization
-<pre>
-class Post
-
-  include ActiveModel::Serialization
-
-  attr_accessor :title
-
-  def attributes
-    {'title' => title}
-  end
-
-end
-
-# So you can use like 
-
-post = Post.new
-post.serializable_hash   # => {"title"=>nil}
-post.name = "Rails is Cool!!"
-post.serializable_hash   # => {"name"=>"Rails is Cool!!"}
-
-</pre>
-
-Can use two inbuilt Serialization techniques 
-
-<pre>
-include ActiveModel::Serializers::JSON
-include ActiveModel::Serializers::Xml
-</pre>
-
-This is a very short intro for Serialization. Hope i will write more in detail soon!!
-
-I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlove</a> talk in <a href="http://www.youtube.com/watch?v=kWOAHIpmLAI" target="_blank">RailsConf2011</a>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/3">&larr; Older</a>
@@ -514,6 +480,10 @@ I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlo
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2015/ruby-raven/">Ruby Raven</a>
+      </li>
+    
+      <li class="post">
         <a href="/2015/interview-on-rubyindia-podcast/">Interview on RubyIndia Podcast</a>
       </li>
     
@@ -527,10 +497,6 @@ I got this from <a href="http://github.com/tenderlove" target="_blank">@tenderlo
     
       <li class="post">
         <a href="/2012/slides-when-ruby-meets-java-the-power-of-torquebox/">Slides (When Ruby Meets Java - the Power of Torquebox)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/oauth-omniauth-twitter/">OAuth With OmniAuth and Twitter</a>
       </li>
     
   </ul>

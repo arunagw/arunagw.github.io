@@ -4,7 +4,7 @@
   <title><![CDATA[Arun Agrawal's Blog]]></title>
   <link href="http://arunagw.github.io/atom.xml" rel="self"/>
   <link href="http://arunagw.github.io/"/>
-  <updated>2015-05-08T14:44:30+02:00</updated>
+  <updated>2015-06-20T08:46:45+02:00</updated>
   <id>http://arunagw.github.io/</id>
   <author>
     <name><![CDATA[Arun Agrawal]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Raven]]></title>
+    <link href="http://arunagw.github.io/2015/ruby-raven/"/>
+    <updated>2015-06-20T08:39:55+02:00</updated>
+    <id>http://arunagw.github.io/2015/ruby-raven</id>
+    <content type="html"><![CDATA[<p>I am very happy to announce <a href="http://ruby.conferencesapp.com/">Ruby Raven</a>. An iOS app which helps to keep track about upcoming Ruby Conferences.</p>
+
+<p>Can read more in detail here <a href="http://raysrashmi.com/2015/06/17/announcing-ruby-raven/">http://raysrashmi.com/2015/06/17/announcing-ruby-raven/</a></p>
+
+<h3>Links</h3>
+
+<ul>
+<li><p><a href="https://appsto.re/in/Ff9e7.i">itunes</a></p></li>
+<li><p><a href="http://ruby.conferencesapp.com/">Ruby Raven</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-server">Server App</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-ios">iOS App</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Interview on RubyIndia Podcast]]></title>
@@ -1012,29 +1033,6 @@ We can also specify a branch/tag/ref of git repository.
                                    :ref =&gt; '23456'</pre>
 We can load gems from our local path also.
 <pre>gem 'nokogiri', :path =&gt; '~/code/nokogiri'</pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Query cache in Rails]]></title>
-    <link href="http://arunagw.github.io/2011/query-cache-rails/"/>
-    <updated>2011-02-27T00:00:00+01:00</updated>
-    <id>http://arunagw.github.io/2011/query-cache-rails</id>
-    <content type="html"><![CDATA[By default Rails do Query cache. Whenever it execute <code>find</code> it enables the query cache.
-You can enable manually by wrapping up in <code>cache</code> block.
-<pre>Post.cache do
-  puts Post.first
-  puts Post.first
-  puts Post.first
-end
-</pre>
-
-Your development.log looks like:
-<pre>
-Post Load (1.0ms) SELECT * FROM posts LIMIT 1
-CACHE (0.0ms) SELECT * FROM posts LIMIT 1
-CACHE (0.0ms) SELECT * FROM posts LIMIT 1
-</pre>
 ]]></content>
   </entry>
   

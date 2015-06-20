@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rubyconferences | Arun Agrawal's Blog]]></title>
+  <link href="http://arunagw.github.io/blog/categories/rubyconferences/atom.xml" rel="self"/>
+  <link href="http://arunagw.github.io/"/>
+  <updated>2015-06-20T08:47:04+02:00</updated>
+  <id>http://arunagw.github.io/</id>
+  <author>
+    <name><![CDATA[Arun Agrawal]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Raven]]></title>
+    <link href="http://arunagw.github.io/2015/ruby-raven/"/>
+    <updated>2015-06-20T08:39:55+02:00</updated>
+    <id>http://arunagw.github.io/2015/ruby-raven</id>
+    <content type="html"><![CDATA[<p>I am very happy to announce <a href="http://ruby.conferencesapp.com/">Ruby Raven</a>. An iOS app which helps to keep track about upcoming Ruby Conferences.</p>
+
+<p>Can read more in detail here <a href="http://raysrashmi.com/2015/06/17/announcing-ruby-raven/">http://raysrashmi.com/2015/06/17/announcing-ruby-raven/</a></p>
+
+<h3>Links</h3>
+
+<ul>
+<li><p><a href="https://appsto.re/in/Ff9e7.i">itunes</a></p></li>
+<li><p><a href="http://ruby.conferencesapp.com/">Ruby Raven</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-server">Server App</a></p></li>
+<li><p><a href="https://github.com/conferencesapp/rubyconferences-ios">iOS App</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://arunagw.github.io/2015/ruby-raven/</loc>
+    <lastmod>2015-06-20T08:39:55+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://arunagw.github.io/2015/interview-on-rubyindia-podcast/</loc>
     <lastmod>2015-03-17T09:21:50+01:00</lastmod>
   </url>
@@ -197,5 +201,17 @@
   </url>
   <url>
     <loc>http://arunagw.github.io/blog/categories/thoughtbot/</loc>
+  </url>
+  <url>
+    <loc>http://arunagw.github.io/blog/categories/raven/</loc>
+  </url>
+  <url>
+    <loc>http://arunagw.github.io/blog/categories/rubyraven/</loc>
+  </url>
+  <url>
+    <loc>http://arunagw.github.io/blog/categories/rubyconferences/</loc>
+  </url>
+  <url>
+    <loc>http://arunagw.github.io/blog/categories/conferences/</loc>
   </url>
 </urlset>
